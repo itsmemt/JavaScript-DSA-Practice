@@ -2,7 +2,6 @@ function mergeSort(arr) {
     if (arr.length === 1) {
         return arr;
     }
-
     const middle = Math.floor(arr.length / 2);
     const left = arr.slice(0, middle);
     const right = arr.slice(middle);
@@ -31,53 +30,6 @@ function merge(left, right) {
 let arr=[3,6,23,22,2,4];
 console.log(arr)
 console.log(mergeSort(arr))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

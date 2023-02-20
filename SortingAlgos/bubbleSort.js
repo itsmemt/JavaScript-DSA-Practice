@@ -5,8 +5,10 @@ function bubbleSort(data){
      for(let j=0;j<data.length-1;j++){
        if(data[j]>data[j+1]){
          let temp=data[j];
-         data.splice(j,1,data[j+1]);
-         data.splice(j+1,1,temp);
+        //  data.splice(j,1,data[j+1]);
+        //  data.splice(j+1,1,temp);
+         data[j]=data[j+1];
+         data[j+1]=temp;
        }
      }
   }
